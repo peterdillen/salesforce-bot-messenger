@@ -28,9 +28,9 @@ let processText = (text, sender)  => {
     if (match) {
         sendMessage({text:
             `You can ask me things like:
-    Search account Acme
-    Search Acme in accounts
-    Search contact Smith
+    Search account GenePoint
+    Search GenePoint in accounts
+    Search contact Young
     What are my top 3 opportunities?
         `}, sender);
         return;
